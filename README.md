@@ -45,8 +45,9 @@ resume-parser/
 ├── auth.py          # Handles user signup/signin and validation
 ├── parser.py        # Resume text extraction and field parsing
 ├── db.py            # Database operations (create, insert, retrieve, delete)
-├── requirements.txt # All Python dependencies
+├── reusme_parser.db # File to store user login information and user parsed history (creadted automatically on running the files)
 └── README.md        # Project documentation (this file)
+```
 
 ---
 
@@ -66,7 +67,27 @@ This document lists all necessary downloads and installation steps to set up and
 
 ## 📦 Required Python Packages
 
-Install all required libraries using the following command:
+Install all required libraries using the following commands:
+- pip install pdfplumber docx2txt spacy
+- pip install streamlit pandas
 
+---
+
+## 🧠 NLP Model Setup
+
+Download the required English language model for spaCy:
+- python -m spacy download en_core_web_sm
+
+## 🚀 Hpw to run
+### Method 1:
 ```bash
-pip install -r requirements.txt
+- Go to the folder in which all the files are saved
+- Click on the address bar and type cmd
+- Command prompt for the folder will open
+- On the command prompt type:
+     python -m streamlit run app.py
+```
+### Method 2:
+
+- Goto the command prompt and type:
+      python -m streamlit run **full address of the app.py file**
