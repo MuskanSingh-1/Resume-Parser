@@ -48,6 +48,7 @@ resume-parser/
 ├── requirements.txt # All Python dependencies
 └── README.md        # Project documentation (this file)
 
+---
 
 # ⚙️ Project Setup & Requirements
 
