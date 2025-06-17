@@ -78,7 +78,7 @@ Install all required libraries using the following commands:
 Download the required English language model for spaCy:
 - python -m spacy download en_core_web_sm
 
-## 🚀 Hpw to run
+## 🚀 How to run
 ### Method 1:
 ```bash
 - Go to the folder in which all the files are saved
