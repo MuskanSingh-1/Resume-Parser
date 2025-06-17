@@ -9,7 +9,7 @@ A web-based application built using **Streamlit** that allows users to securely 
 - 🔐 **User Authentication** (Sign-up/Sign-in)
 - 📤 **Upload Resumes** in `.pdf` or `.docx` formats
 - 🧠 **AI-powered Parsing** using spaCy and regex
-- 🛠️ Extracts:
+- 🛠️ **Extracts:**
   - Name
   - Email
   - Phone Number
